@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Age verify</h2>
+    </header>
+    <section>
+        <div id="year">
+            <p><strong>Please put on your information!</strong></p>
+           <p> What year were you born? <input type="number" name="born" id="born" min ="0"></p> 
+           <p>
+               Sex: <input type="radio" name="radio" id="male">
+               <label for="male">Male</label>
+               <input type="radio" name="radio" id="fem">
+               <label for="fem">Female</label>
+            </p>
+            <p>
+                <input type="button" value="Check" id="checkbtn" onclick="verify()">
+            </p>
+        </div>
+        <div>
+            <p id = "placeholder">
+                You are...
+            </p>
+            <p id = "pic">
+                <img src="./img src/question.png" alt="?" width="490px" class="mage">
+            </p>
+        </div>
+    </section>
+    <footer>
+        <h3>
+            <small><a href="http://https://github.com/Pabloxoxd">github: @Pabloxoxd</a></small>
+        </h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
